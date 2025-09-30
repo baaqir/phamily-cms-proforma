@@ -17,7 +17,7 @@
     "lucide-react": "^0.453.0"
   },
   "devDependencies": {
-    "vite": "^5.4.0",            // or 7.x if you’re on Node 20+ (you are)
+    "vite": "^7.4.0",            // or 7.x if you’re on Node 20+ (you are)
     "typescript": "^5.5.4",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
