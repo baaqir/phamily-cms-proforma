@@ -42,7 +42,7 @@ function downloadCSV(name:string,csv:string){
     return href;
   }
 }
-async function fetchJSON(url:string, ms=8000){
+async function fetchJSON(url:string, ms=15000){
   const c=new AbortController(); const to=setTimeout(()=>c.abort(),ms);
   try{ const r=await fetch(url,{signal:c.signal}); if(!r.ok) throw new Error(`HTTP ${r.status}`); return await r.json(); } finally { clearTimeout(to); }
 }
