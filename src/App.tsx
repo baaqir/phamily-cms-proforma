@@ -3,7 +3,7 @@ import { Wand2, Edit3, ArrowRight, Check, Settings, DollarSign, TrendingUp, BarC
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, LineChart, Line } from "recharts";
 
 // =============== Consts & Utils ===============
-const CMS_ENDPOINT = "https://data.cms.gov/data-api/v1/dataset/8889d81e-2ee7-448f-8713-f071038289b5/data";
+const CMS_ENDPOINT = "/api/cms-proxy";
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const MOCK_TARGETS = [
   { id: "t1", mode: "name", first: "Amelia", last: "Nguyen", state: "TX" },
